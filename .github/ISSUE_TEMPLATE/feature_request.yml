@@ -1,0 +1,38 @@
+name: Feature Request
+description: 프로젝트에서 구현해야할 기능 내용 작성
+title: "[Feature]"
+labels: ["Enhancement"]
+body:
+  - type: markdown
+    attrubutes:
+      value: |
+        구현해야할 기능을 잘 보여줄 수 있도록 Issue 작성을 해봅시다!
+  - type: textarea
+    id: relation
+    attributes:
+      label: 평소 느꼈던 문제와 관련이 있는 기능인가요? 느꼈던 문제점을 적어주세요.
+      description: 문제점이 잘 드러나게 적어주세요!
+      placeholder: E.g. "프로젝트와 관련해 이런 문제점이 존재할거라 생각했습니다..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: description
+    attributes:
+      label: 기능과 관련된 자세한 내용을 적어주세요!
+      description: 이 기능이 무엇이며 어떻게 구현할 것인지 알려주세요.
+      placeholder: E.g. "이 기능은 어떤 기능이고 어떤 문제점을 막고자 했으며 어떤 구조로..."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+  - type: textarea
+    id: additional
+    attributes:
+      label: 그 외 적어주실 추가적인 내용을 적어주세요!
+      description: 참고자료든 어떤 의견이든 좋습니다!
