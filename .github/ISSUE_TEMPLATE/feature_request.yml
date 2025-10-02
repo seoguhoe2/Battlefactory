@@ -4,7 +4,7 @@ title: "[Feature]"
 labels: ["Enhancement"]
 body:
   - type: markdown
-    attrubutes:
+    attributes:
       value: |
         구현해야할 기능을 잘 보여줄 수 있도록 Issue 작성을 해봅시다!
   - type: textarea
